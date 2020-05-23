@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+a{
+	text-decoration: none;
+	font-weight: bolder;
+	line-height: 5;
+	margin-left: 15px;
+	position: relative;
+	top: -15px;
+	left: 1000px;
+}
+a:hover{
+	color: yellow;
+}
+a.active{
+	color: red;
+}
+h1{
+	text-align: center;
+	padding-bottom :40px;
+}
+#paragraph{
+	padding: 30px;
+}
+#para{
+	padding: 30px;
+	float: left;
+	width: 33.33%;
+}
