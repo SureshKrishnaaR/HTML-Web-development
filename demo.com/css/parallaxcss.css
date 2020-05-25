@@ -43,14 +43,17 @@ a.active{
 }
 .img1{
 	background-image: url('../img/img1.jpg');
+	width: 100%;
 	min-height: 800px;
 }
 .img2{
 	background-image: url('../img/img2.jpg');
+	width: 100%;
 	min-height: 350px;
 }
 .img3{
 	background-image: url('../img/img3.jpg');
+	width: 100%;
 	min-height: 350px;
 }
 .img1text,.img2text,.img3text{
@@ -60,4 +63,9 @@ a.active{
 	font-weight: bold;
 	font-size: 30px;
 	background: none;
+}
+@media(max-width: 768px){
+	.img1, .img2, .img3{
+		width: 100%;
+	} 
 }
