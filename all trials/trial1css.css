@@ -1,17 +1,16 @@
-/**{
+*{
 	background-color: pink;
 }
 h1{
 	margin: auto;
 }
-div{
+div#divid{
 	border: 5px solid black;
 	padding: 20px;
 	width: 446px;
 	height: 346px;
-	white-space: nowrap;
 }
-p{
+p#pid{
 	width: 420px;
 	margin: auto;
 	padding: 10px;
@@ -21,7 +20,7 @@ p{
 	background: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg");
 	background-attachment: fixed;
 	background-clip: initial;
-	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	transition: border-color 3s ease-in-out, box-shadow 3s ease-in-out;
 }
 button{
 	color: white;
@@ -32,8 +31,8 @@ button{
 button:hover{
 	color: red;
 	background-color: white;
-}*/
-
+}
+/*
 
 
 
@@ -420,7 +419,6 @@ body {
 	38%, 82% { transform: translate(-50%, -50%) scale(0.2); }
 }
 @keyframes circle13AnimationView {
-	/* подвигать */
 	0% { opacity: 1; }
 	2.5% { opacity: 0.5; }
 	5.7% { opacity: 1; }
@@ -476,7 +474,6 @@ body {
 	}
 
 @keyframes circle14AnimationView {
-	/* подвигать */
 	0% { opacity: 1; }
 	2.5% { opacity: 0.5; }
 	5.7% { opacity: 1; }
@@ -718,4 +715,4 @@ body {
 		transform: rotate(-5deg) translate(-253px, -126px);
 		opacity: 1;
 	}
-}
+}*/

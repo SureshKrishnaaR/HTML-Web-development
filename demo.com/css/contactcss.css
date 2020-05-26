@@ -30,6 +30,18 @@ h1{
 }
 #para{
 	padding: 30px;
-	float: left;
-	width: 33.33%;
+}
+@media(min-width: 768px)
+{
+	#para{
+		float: left;
+		width: 33.33%;
+	}
+}
+@media(max-width: 768px)
+{
+	#para{
+		float: left;
+		width: 100%;
+	}
 }
