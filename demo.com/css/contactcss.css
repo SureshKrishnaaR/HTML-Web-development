@@ -1,0 +1,52 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+a{
+	text-decoration: none;
+	font-weight: bolder;
+	line-height: 5;
+	position: relative;
+	top: -15px;
+	left: 900px;
+	padding: 10px;
+}
+a:hover{
+	color: yellow;
+}
+nav a:hover{
+	background-color: white;
+	border: 1px red;
+	border-radius: 5px;
+}
+a.active{
+	color: red;
+}
+h1{
+	text-align: center;
+	padding-bottom :40px;
+}
+#paragraph{
+	padding: 30px;
+}
+#para{
+	padding: 30px;
+}
+@media(min-width: 768px)
+{
+	#para{
+		float: left;
+		width: 33.33%;
+	}
+}
+@media(max-width: 768px)
+{
+	#para{
+		float: left;
+		width: 100%;
+	}
+}

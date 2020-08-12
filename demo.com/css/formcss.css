@@ -1,0 +1,64 @@
+*{
+	box-sizing: border-box;
+	background: url('../img/img4.jpg');
+	background-repeat: no-repeat;
+	background: cover;
+	background-attachment: fixed;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+a{
+	text-decoration: none;
+	font-weight: bolder;
+	line-height: 5;
+	margin-left: 15px;
+	position: relative;
+	top: -15px;
+	left: 1000px;
+	color: white;
+}
+a:hover{
+	color: yellow;
+}
+a.active{
+	color: red;
+}
+#new{
+	background: none;
+}
+#surveyform{
+	color: #e4cc52;
+	font-weight: bold;
+	width: 450px;
+	padding: 20px;
+	margin: auto;
+	text-align: left;
+	border: 5px solid black;
+}
+#footer-text{
+	text-align: left;
+}
+button{
+	padding: 10px;
+	font-weight: bold;
+}
+select{
+	width: 200px;
+}
+input{
+	border-radius: 5px;
+	padding: 10px;
+}
+#submit{
+	text-align: center;
+}
+#button{
+	color: #e4cc52;
+}
+#drop{
+	padding: 10px;
+}
+#name,#age,#country,#drop,#ta{
+	width: 96%;
+	font-weight: bold;
+	color: black;
+}

@@ -1,0 +1,33 @@
+body{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#ricon{
+	height: 90px;
+	width: 90px;
+	border-radius: 40px;
+}
+.navbar-text{
+	font-size: 1em;
+}
+#navbrand{
+	font-size: 1em;
+	color: #f7cf4b;
+}
+#navbarnav{
+	font-size: 1em;
+}
+.nav-item a{
+	text-align: center;
+}
+.nav-item a:hover{
+	background-color: #f7d49f;
+	padding: 10px;
+	border-radius: 10px;
+}
+#dlink1,#dlink2{
+	text-decoration: none;
+	color: black;
+}
+#phone a{
+	text-decoration: none;
+}

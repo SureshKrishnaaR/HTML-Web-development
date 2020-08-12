@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Demo | Form</title>
+	<link rel="stylesheet" type="text/css" href="css/formcss.css">
+</head>
+<body>
+	<nav>
+		<img id="imaged" src="img/logo1.png" width="100" height="100" alt="Logo">
+		<a href="index.html">Home</a>
+		<a href="parallax.html">Parallax</a>
+		<a class="active" href="form.html">Form</a>
+		<a href="portfolio.html">Portfolio</a>
+		<a href="contact.html">Contact</a>
+	</nav>
+
+	<h1 style="text-align: center; padding: 30px;">Fill Up The Form</h1>
+	<form id="surveyform">
+		<div id="ip1">	
+			<p>Name</p>
+			<input id="name" type="text" placeholder="Enter your name" required>
+		</div>
+		<div id="ip2">	
+			<p>Age</p>
+			<input id="age" type="number" placeholder="Enter your age" required>
+		</div>
+		<div id="ip3">	
+			<p>Country</p>
+			<input id="country" type="text" placeholder="Enter your country">
+		</div>
+		<div id="ip4">
+			<p>What do you like to have???</p>
+			<input id="check1" type="checkbox" name="have">Coffee
+			<input id="check2" type="checkbox" name="have">Tea
+			<input id="check3" type="checkbox" name="have">Snacks
+			<input id="check4" type="checkbox" name="have">Icecream
+			<input id="check5" type="checkbox" name="have">Cake
+		</div>
+		<div id="ip5">
+			<p>Favourite Colour</p>
+			<select id="drop">
+				<option>None</option>
+				<option>Blue</option>
+				<option>Green</option>
+				<option>Red</option>
+			</select>
+		</div>
+		<div id="ip6">
+			<p>Do you like this form???</p>
+			<div id="new">
+				<label for="l1">
+					<input id="like1" type="radio" name="like">Yes
+				</label>
+				<label for="l2">
+					<input id="like2" type="radio" name="like">No
+				</label>
+				<label for="l3">
+					<input id="like3" type="radio" name="like">Not willing to say
+				</label>
+			</div>
+		</div>
+		<div id="ip7">
+			<p>Write your Comments</p>
+			<textarea id="ta" rows="5" cols="40"></textarea>
+		</div>
+		<br>
+		<br>
+		<div id="submit">
+			<button id="button">Submit</button>
+		</div>
+	</form>
+	<footer>
+		<br><br>
+		<p id="footer-text">Copyright &copy; Demo</p>
+	</footer>
+</body>
+</html>
