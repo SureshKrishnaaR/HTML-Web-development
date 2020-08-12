@@ -6,6 +6,29 @@
 	<meta name="viewport" content="width=device-width initial-scale=1 shrink-to-fit=no">
 	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<style>
+		@media(min-width: 1200px){
+		.tryclasscont{
+			padding: 125px;
+		}
+	}	
+		@media(max-width: 1200px){
+		.tryclasscont{
+			padding: 100px;
+		}
+	}
+		@media(max-width: 992px){
+		.tryclasscont{
+			padding: 50px;
+		}
+	}
+		@media(max-width: 768px){
+		.tryclasscont{
+			padding: 25px;		
+		}
+	}
+		
+	</style>
 </head>
 <body>
 	<!--ALERTS-->
@@ -17,9 +40,9 @@
 		<a href="#">Link</a>
 	</div>
 	<!--BADGES-->
-	<div class="p-5 bg-secondary w-25 ml-5 d-inline-block">
+	<div class="p-5 bg-gradient-success w-25 ml-5">
 		Social
-		<span class="badge badge-primary">50 new</span>
+		<span class="badge badge-primary">25 new</span>
 		<br>
 		Promotions
 		<span class="badge badge-warning">100 new</span>
@@ -35,10 +58,308 @@
 			<li class="breadcrumb-item active"><a href="#">Contacts</a></li>
 		</ol>
 	</nav>
+	<!--BUTTONS-->
+	<button type="button" class="ml-3 btn btn-info">Submit</button>
+	<button type="button" class="ml-3 btn btn-danger">Submit</button>
+	<button type="button" class="ml-3 btn btn-warning">Submit</button>
+	<button tupe="button" class="ml-3 btn btn-outline-primary">Submit</button>
+	<button type="button" class="ml-3 btn btn-outline-secondary">Submit</button>
+	<button type="button" class="ml-3 btn btn-warning" data-toggle="button">Submit</button>
+	<button type="button" class="ml-3 btn btn-danger btn-large">Submit</button>
+	<button type="button" class="ml-3 btn btn-danger btn-lg" disabled>Submit</button>
+	<button type="button" class="ml-3 btn btn-primary btn-sm">Submit</button>
+	<button type="button" class="ml-3 btn btn-outline-info btn-sm active">Submit</button>
+	<br>
+	<div class="mt-5 ml-3 btn-group btn-group-toggle" data-toggle="buttons">
+		<label class="btn btn-primary active">
+			<input type="radio" name="options" checked>Home</label>
+		</label>
+		<label class="btn btn-info">
+			<input type="radio" name="options" >Contacts</label>
+		</label>
+		<label class="btn btn-secondary">
+			<input type="radio" name="options" >About</label>
+		</label>
+	</div>
+	<br>
+	<!--Button Groups-->
+	<div class="btn-group mt-5 ml-5">
+		<button type="button" class="btn btn-secondary">Left</button>
+		<button type="button" class="btn btn-secondary">Middle</button>
+		<button type="button" class="btn btn-secondary">Right</button>
+	</div>
+	<div class="btn-toolbar">
+		<div class="btn-group mt-5 ml-5">
+			<button type="button" class="btn btn-secondary">Left</button>
+			<button type="button" class="btn btn-secondary">Middle</button>
+			<button type="button" class="btn btn-secondary">Right</button>
+		</div>
+		<div class="btn-group mt-5 ml-5">
+			<button type="button" class="btn btn-secondary">Left</button>
+			<button type="button" class="btn btn-secondary">Middle</button>
+			<button type="button" class="btn btn-secondary">Right</button>
+		</div>
+		<div class="btn-group mt-5 ml-5">
+			<button type="button" class="btn btn-secondary">Left</button>
+			<button type="button" class="btn btn-secondary">Middle</button>
+			<button type="button" class="btn btn-secondary">Right</button>
+		</div>
+	</div>
+	<div class="btn-toolbar">
+		<div class="btn-group">
+			<button type="button" class="btn btn-primary">Left</button>
+			<button type="button" class="btn btn-warning">Middle</button>
+			<button type="button" class="btn btn-danger">Right</button>
+		</div>
+		<br>
+		<div class="mt-5 ml-5 input-group">
+			<div class="input-group-prepend">
+				<div class="input-group-text text-danger bg-warning">Name</div>
+			</div>
+			<input type="text" class="form-control" name="textbox" placeholder="Enter Name">
+		</div>
+	</div>
+	<div class="container mx-auto mt-5" style="width: 200px;">
+		<div class="btn-group-vertical">
+			<button class="btn btn-secondary">NUM 1</button>
+			<button class="btn btn-secondary">NUM 2</button>
+			<div class="btn-group">
+				<button class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">Dropdown</button>
+				<div class="dropdown-menu">
+					<a href="#" class="dropdown-item">Drop 1</a>
+					<a href="#" class="dropdown-item">Drop 2</a>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div class="container">
+		<div class="row row-cols-lg-3 row-cols-sm-2 row-cols-1">
+			<div class="my-5 p-2">
+				<img class="img-fluid shadow-lg p-1 bg-dark rounded" src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" >
+			</div>
+			<div class="my-5 p-2">
+				<img class="img-fluid shadow-lg p-1 bg-dark rounded" src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" >
+			</div>
+			<div class="my-5 p-2">
+				<img class="img-fluid shadow-lg p-1 bg-dark rounded" src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" >
+			</div>
+			<div class="my-5 p-2">
+				<img class="img-fluid shadow-lg p-1 bg-dark rounded" src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" >
+			</div>
+			<div class="my-5 p-2">
+				<img class="img-fluid shadow-lg p-1 bg-dark rounded" src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" >
+			</div>
+		</div>
+	</div>
 
+	<br><br><br>
+	<div class="d-flex flex-wrap-reverse bd-highlight bg-secondary p-2">
+	  <div class="p-2 bd-highlight border border-dark bg-warning mr-2">First flex item</div>
+	  <div class="p-2 bd-highlight border border-dark bg-danger mr-2">Second flex item</div>
+	  <div class="p-2 bd-highlight border border-dark bg-success mr-2">Third flex item</div>
+	</div>
+	<br><br><br>
+	<div class="bg-dark p-3">
+		<p class="user-select-all text-white text-center p-2 border border-warning">ALL selection</p>
+		<p class="user-select-auto text-white text-center p-2 border border-warning">AUTO selection</p>
+		<p class="user-select-none text-white text-center p-2 border border-warning">NO selection</p>
+	</div>
+	<br><br><br>
+	<div style="height: 25px;">
+		<div class="w-25 h-75 border border-warning overflow-auto p-2 my-5">
+			<p>This is an example of using .overflow-auto on an element with set width and height dimensions. By design, this content will vertically scroll.</p>
+		</div>
+		<div class="w-25 h-75 overflow-hidden border border-warning p-2 my-5">This is an example of using .overflow-hidden on an element with set width and height dimensions.By design, this content will vertically scroll.</div>
+	</div>
+	<br><br><br>
+	<div class="badge badge-primary text-wrap" style="width: 6rem;">
+	  This text should wrap.
+	</div>
+	
 
+	<br><br><br>
+	<div class="bg-danger clearfix mt-3">
+		<button type="button" class="btn btn-secondary float-left">Example Button floated left</button>
+		<button type="button" class="btn btn-secondary float-right">Example Button floated right</button>
+	</div>
+	<button type="button" class="close">
+	  <span>&times;</span>
+	</button>
+	<br><br><br><br><br><br><br>
+	
+	<div class="card mx-3 w-25 text-white">
+		<img src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" alt="fd" class="card-img">
+		<div class="card-img-overlay">
+			<h5 class="card-title">Card Title</h5>
+			<p class="card-text">Hello This is a card and this is built using Bootstrap 4 try building this card... Bye....!</p>
+			<a href="#" type="button" class="btn btn-primary">Click Me</a>	
+		</div>
+	</div>
+	<br><br><br>
+	<div class="container-fluid tryclasscont">
+		<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+			<div class="col text-center tryclass">
+				<div class="card mx-auto my-5" style="border-radius: 25px;">
+					<img src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" alt="fd" class="card-img-top" style="border-radius: 25px 25px 0px 0px;">
+					<div class="card-body">
+						<h5 class="card-title">Card Title</h5>
+						<p class="card-text">Hello This is a card and this is built using Bootstrap 4 try building this card... Bye....!</p>
+						<a href="#" type="button" class="btn btn-primary">Click Me</a>	
+					</div>
+				</div>
+			</div>
+			<div class="col text-center tryclass">
+				<div class="card mx-auto my-5" style="border-radius: 25px;">
+					<img src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" alt="fd" class="card-img-top" style="border-radius: 25px 25px 0px 0px;">
+					<div class="card-body">
+						<h5 class="card-title">Card Title</h5>
+						<p class="card-text">Hello This is a card and this is built using Bootstrap 4 try building this card... Bye....!</p>
+						<a href="#" type="button" class="btn btn-primary">Click Me</a>	
+					</div>
+				</div>
+			</div>
+			<div class="col text-center tryclass">
+				<div class="card mx-auto my-5" style="border-radius: 25px;">
+					<img src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" alt="fd" class="card-img-top" style="border-radius: 25px 25px 0px 0px;">
+					<div class="card-body">
+						<h5 class="card-title">Card Title</h5>
+						<p class="card-text">Hello This is a card and this is built using Bootstrap 4 try building this card... Bye....!</p>
+						<a href="#" type="button" class="btn btn-primary">Click Me</a>	
+					</div>
+				</div>
+			</div>
+			<div class="col text-center tryclass">
+				<div class="card mx-auto my-5" style="border-radius: 25px;">
+					<img src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" alt="fd" class="card-img-top" style="border-radius: 25px 25px 0px 0px;">
+					<div class="card-body">
+						<h5 class="card-title">Card Title</h5>
+						<p class="card-text">Hello This is a card and this is built using Bootstrap 4 try building this card... Bye....!</p>
+						<a href="#" type="button" class="btn btn-primary">Click Me</a>	
+					</div>
+				</div>
+			</div>
+			<div class="col text-center tryclass">
+				<div class="card mx-auto my-5" style="border-radius: 25px;">
+					<img src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" alt="fd" class="card-img-top" style="border-radius: 25px 25px 0px 0px;">
+					<div class="card-body">
+						<h5 class="card-title">Card Title</h5>
+						<p class="card-text">Hello This is a card and this is built using Bootstrap 4 try building this card... Bye....!</p>
+						<a href="#" type="button" class="btn btn-primary">Click Me</a>	
+					</div>
+				</div>
+			</div>
+			<div class="col text-center tryclass">
+				<div class="card mx-auto my-5" style="border-radius: 25px;">
+					<img src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" alt="fd" class="card-img-top" style="border-radius: 25px 25px 0px 0px;">
+					<div class="card-body">
+						<h5 class="card-title">Card Title</h5>
+						<p class="card-text">Hello This is a card and this is built using Bootstrap 4 try building this card... Bye....!</p>
+						<a href="#" type="button" class="btn btn-primary">Click Me</a>	
+					</div>
+				</div>
+			</div>
+			<div class="col text-center tryclass">
+				<div class="card mx-auto my-5" style="border-radius: 25px;">
+					<img src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" alt="fd" class="card-img-top" style="border-radius: 25px 25px 0px 0px;">
+					<div class="card-body">
+						<h5 class="card-title">Card Title</h5>
+						<p class="card-text">Hello This is a card and this is built using Bootstrap 4 try building this card... Bye....!</p>
+						<a href="#" type="button" class="btn btn-primary">Click Me</a>	
+					</div>
+				</div>
+			</div>
+			<div class="col text-center tryclass">
+				<div class="card mx-auto my-5" style="border-radius: 25px;">
+					<img src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" alt="fd" class="card-img-top" style="border-radius: 25px 25px 0px 0px;">
+					<div class="card-body">
+						<h5 class="card-title">Card Title</h5>
+						<p class="card-text">Hello This is a card and this is built using Bootstrap 4 try building this card... Bye....!</p>
+						<a href="#" type="button" class="btn btn-primary">Click Me</a>	
+					</div>
+				</div>
+			</div>
+			<div class="col text-center tryclass">
+				<div class="card mx-auto my-5" style="border-radius: 25px;">
+					<img src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" alt="fd" class="card-img-top" style="border-radius: 25px 25px 0px 0px;">
+					<div class="card-body">
+						<h5 class="card-title">Card Title</h5>
+						<p class="card-text">Hello This is a card and this is built using Bootstrap 4 try building this card... Bye....!</p>
+						<a href="#" type="button" class="btn btn-primary">Click Me</a>	
+					</div>
+				</div>
+			</div>
+			<div class="col text-center tryclass">
+				<div class="card mx-auto my-5" style="border-radius: 25px;">
+					<img src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" alt="fd" class="card-img-top" style="border-radius: 25px 25px 0px 0px;">
+					<div class="card-body">
+						<h5 class="card-title">Card Title</h5>
+						<p class="card-text">Hello This is a card and this is built using Bootstrap 4 try building this card... Bye....!</p>
+						<a href="#" type="button" class="btn btn-primary">Click Me</a>	
+					</div>
+				</div>
+			</div>
+			<div class="col text-center tryclass">
+				<div class="card mx-auto my-5" style="border-radius: 25px;">
+					<img src="Mini oreo.jpg" alt="fd" class="card-img-top" style="border-radius: 25px 25px 0px 0px; min-height: 200px; max-height: 250px;">
+					<div class="card-body">
+						<h5 class="card-title">Card Title</h5>
+						<p class="card-text">Hello This is a card and this is built using Bootstrap 4 try building this card... Bye....!</p>
+						<a href="#" type="button" class="btn btn-primary">Click Me</a>	
+					</div>
+				</div>
+			</div>
+			<div class="col text-center tryclass">
+				<div class="card mx-auto my-5" style="border-radius: 25px;">
+					<img src="https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg" alt="fd" class="card-img-top" style="border-radius: 25px 25px 0px 0px;">
+					<div class="card-body">
+						<h5 class="card-title">Card Title</h5>
+						<p class="card-text">Hello This is a card and this is built using Bootstrap 4 try building this card... Bye....!</p>
+						<a href="#" type="button" class="btn btn-primary">Click Me</a>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<br><br><br><br>
 
+	<div class="card" style="width: 18rem;">
+		<ul class="list-group list-group-flush">
+			<li class="list-group-item">Cras justo odio</li>
+			<li class="list-group-item">Dapibus ac facilisis in</li>
+			<li class="list-group-item">Vestibulum at eros</li>
+		</ul>
+	</div>
+
+	<br><br><br><br>
+	<!-- Nav tabs -->
+	<ul class="nav nav-tabs" id="myTab" role="tablist">
+	  <li class="nav-item">
+	    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home">Home</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile">Profile</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" id="messages-tab" data-toggle="tab" href="#messages">Messages</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings">Settings</a>
+	  </li>
+	</ul>
+
+	<!-- Tab panes -->
+	<div class="tab-content">
+	  <div class="tab-pane active" id="home">A...</div>
+	  <div class="tab-pane" id="profile">B...</div>
+	  <div class="tab-pane" id="messages">C...</div>
+	  <div class="tab-pane" id="settings">D...</div>
+	</div>
+	<div class="d-none d-sm-block d-md-none bg-info text-white text-center p-2">Hello Hi bye bye...!</div>
+
+	<footer>
+		&copy; copyright
+	</footer>
 
 
 

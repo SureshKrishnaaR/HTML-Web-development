@@ -32,6 +32,9 @@ button:hover{
 	color: red;
 	background-color: white;
 }
+#for-img img:hover{
+	transform: rotate(10deg);
+}
 /*
 
 

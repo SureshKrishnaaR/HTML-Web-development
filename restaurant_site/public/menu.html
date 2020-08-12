@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Static Restaurant Site</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1 shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+    crossorigin="anonymous"/>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> 
+
+	<link rel="stylesheet" type="text/css" href="css/indexcss.css">	
+</head>
+<body>
+	<nav class="navbar navbar-expand-xl navbar-dark sticky-top">
+		<a href="index.html" class="navbar-brand">
+			<img id="ricon" src="images/rest-icon.jpg">
+			<span class="p-3" id="navbrand">Brunch &amp; Munch</span>
+		</a>
+		<span class="navbar-text mr-auto text-center d-none d-sm-block">Nothing brings people together like good food...!</span>
+		<button class="navbar-toggler ml-lg-auto ml-md-auto mr-sm-auto mr-xs-auto" data-toggle="collapse" data-target="#idnavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="ml-auto btn mr-4 d-sm-none" data-toggle="tooltip" data-placement="bottom" title="My Bucket">
+			<a href="bucket.html" style="text-decoration: none;"><i class="fas fa-shopping-cart fa-2x text-success"></i></a>
+		</div>
+		<div class="d-sm-none">
+			<a href="tel: 044-22413531"x><i class="fas fa-phone-alt fa-2x"></i></a>
+		</div>
+		<div class="collapse navbar-collapse" id="idnavbar">
+			<ul class="navbar-nav m-auto" id="navbarnav">
+				<li class="nav-item heynav">
+					<a class="nav-link text-danger" href="index.html">
+						<i class="fas fa-home"></i>
+						Home
+					</a>
+				</li>
+				<li class="nav-item heynav">
+					<a class="nav-link text-danger" href="about.html">
+						<i class="fas fa-info-circle"></i>
+						About
+					</a>
+				</li>
+				<li class="nav-item heynav">
+					<a class="nav-link active text-danger" href="menu.html">
+						<i class="fas fa-utensils"></i>						
+						Menu
+					</a>
+				</li>
+				<li class="nav-item heynav d-none d-sm-block">
+					<a class="nav-link text-danger" href="bucket.html">
+						<i class="fas fa-shopping-cart"></i>					
+						My Bucket
+					</a>
+				</li>
+				<li class="nav-item heynav dropdown">
+					<a class="nav-link text-danger dropdown-toggle" data-toggle="dropdown" href="#">
+						<i class="fas fa-plus-square"></i>
+						Extras
+					</a>
+					<ul class="dropdown-menu">
+						<li class="dropdown-item" style="background: black;"><a class="text-danger" id="dlink1" href="specials.html">New Offers</a></li>
+						<li class="dropdown-item" style="background: black;"><a class="text-danger" id="dlink2" href="chat.html">Direct Chat</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div id="phone" class="ml-auto d-none d-sm-block mr-1">
+			<a href="tel: 044-22413531">044-22413531</a>
+			<div style="color: green">We Deliver......!</div>
+		</div>
+	</nav>
+	
+	<div class="container-fluid p-0">
+		<div class="carousel slide" data-ride="carousel" id="carouselid">
+			<ol class="carousel-indicators">
+				<li class="active" href="#carouselid" data-slide-to="0"></li>
+				<li href="#carouselid" data-slide-to="1"></li>			
+				<li href="#carouselid" data-slide-to="2"></li>
+				<li href="#carouselid" data-slide-to="3"></li>
+				<li href="#carouselid" data-slide-to="4"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="images/aloo-paratha.jpg" class="d-block w-100 menuimageresponse">
+					<div class="carousel-caption d-none d-md-block" style="font-size: 1.5em;">
+						<p style="font-weight: bolder;">Appetizing Aloo Paratha</p>
+						<p style="font-size: 0.65em;">A traditional tasty dish with distinct flavours and healthy ingredients.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/cake2.jpg" class="d-block w-100 menuimageresponse">
+					<div class="carousel-caption d-none d-md-block" style="font-size: 1.5em;">
+						<p style="font-weight: bolder;">Delicious Cakes</p>
+						<p style="font-size: 0.65em;">Try out these cakes made out of flour, sugar, flavours and other ingredients and it is baked with love....!</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/pizza.jpg" class="d-block w-100 menuimageresponse">
+					<div class="carousel-caption d-none d-md-block" style="font-size: 1.5em;">
+						<p style="font-weight: bolder;">Tasty Pizza</p>
+						<p style="font-size: 0.65em;">There is no better feeling in this world than a warm pizza box on your lap!</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/indian-dosa2.jpg" class="d-block w-100 menuimageresponse">
+					<div class="carousel-caption d-none d-md-block" style="font-size: 1.5em;">
+						<p style="font-weight: bolder;">Indian Culture</p>
+						<p style="font-size: 0.65em;">Dosa is a dish of south India.It tastes even more delicious than it looks, it's eaten with cocunut chutney and sambhar...</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/icecream2.jpg" class="d-block w-100 menuimageresponse">
+					<div class="carousel-caption d-none d-md-block" style="font-size: 1.5em;">
+						<p style="font-weight: bolder;">Icecreams</p>
+						<p style="font-size: 0.65em;">Deserts are the fairy tales of the kitchen -- a-happily-even-after to supper.Icecream is an exquisite!</p>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-control-prev" href="#carouselid" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</div>
+			<div class="carousel-control-next" href="#carouselid" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="modalid" data-backdrop="static" data-keyboard="false">
+		<div class="modal-dialog modal-dialog-scrollable">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class="modal-title">Order Details</div>
+					<div class="close" data-dismiss="modal">
+						<span>&times;</span>
+					</div>
+				</div>
+				<div class="modal-body">
+					<div class="container">
+						<div class="row">
+							<div class="col-7">Cost</div>
+							<div class="col-5">500</div>
+						</div>
+						<div class="row">
+							<div class="col-7">Discount</div>
+							<div class="col-5">20%</div>
+						</div>
+					</div>
+					<br><br>
+					<div class="form-inline ml-3 p-3 rounded" style="background: black;">
+						<div class="form-group">
+							<label for="quantitylabel">
+								<div class="container">
+									<div class="row text-success">Quantity</div>
+									<div class="row"><small class="form-text text-muted">Choose the quantity</small></div>
+								</div>
+							</label>
+							<input type="number" class="form-control w-25 ml-5" id="quantitylabel">
+						</div>
+					</div>
+					<div class="form-inline pl-4 mt-3 pb-1">
+						<div class="form-group">
+							<div class="form-text mr-3 text-info">Do you need extra-service ?</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="extraservice" id="extraservice-1">
+								<label class="form-check-label text-success" for="extraservice-1">Yes</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="extraservice" id="extraservice-2">
+								<label class="form-check-label text-danger" for="extraservice-2">No</label>
+							</div>
+						</div>
+					</div>
+					<div class="form-inline pl-4 pt-1 pb-1">
+						<div class="form-group">
+							<div class="form-text mr-3 text-warning">Select the required toppings</div>
+							<div class="form-check form-check-inline">
+								<input type="checkbox" name="toppings" id="toppings-1" class="form-check-input">
+								<label class="form-check-label text-dark" for="toppings-1">Cheese</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input type="checkbox" name="toppings" id="toppings-2" class="form-check-input">
+								<label class="form-check-label text-dark" for="toppings-2">Chocochips</label>			
+							</div>
+							<div class="form-check form-check-inline">
+								<input type="checkbox" name="toppings" id="toppings-3" class="form-check-input">
+								<label class="form-check-label text-dark" for="toppings-3">Chocolate Sauce</label>			
+							</div>
+							<div class="form-check form-check-inline">
+								<input type="checkbox" name="toppings" id="toppings-4" class="form-check-input">
+								<label class="form-check-label text-dark" for="toppings-4">Strawberry Sauce</label>			
+							</div>
+							<div class="form-check form-check-inline">
+								<input type="checkbox" name="toppings" id="toppings-5" class="form-check-input">
+								<label class="form-check-label text-dark" for="toppings-5">Caramel</label>	
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<div class="btn btn-primary">Go to bucket</div>
+					<div class="btn btn-success">Pay now</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container fullmenu">
+		<div class="jumbotron mt-5 p-3" style="background:  #fcf4e4;">
+			<div class="menucategories text-center">
+				<i class="fas fa-utensils helloclass"></i> Menu Catgories <i class="fas fa-utensils helloclass" data-fa-transform="rotate-90" style="transform: rotateX(180deg); transform: rotateY(180deg);"></i>
+			</div>
+		</div>	
+		<div class="container-fluid" style="margin-top: 50px;">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-xs-12 my-4">
+					<div class="card mx-auto">
+						<img src="images/pizza.jpg" class="card-img-top" style="min-height: 270px; max-height: 270px;">
+						<div class="card-body text-center" id="foot-card">
+							<div class="card-title">
+								<h4>
+									<a class="text-white" style="text-decoration: none;">Pizza</a>
+								</h4>
+							</div>
+							<div class="card-text">
+								<a class="btn" type="button" data-target="#collapsetry1" data-toggle="collapse">
+									<i class="fas fa-arrow-circle-down fa-2x" style="color: red;"></i>
+								</a>
+							</div>
+							<div class="collapse" id="collapsetry1">
+								<div class="mt-2 p-0">
+									<a class="btn btn-success d-block" data-toggle="modal" data-target="#modalid">Order Now</a>
+									<a class="btn btn-warning d-block mt-2">Add to Bucket</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-xs-12 my-4">
+					<div class="card mx-auto">
+						<img src="images/cheeseburger.jpg" class="card-img-top" style="min-height: 270px; max-height: 270px;">
+						<div class="card-body text-center" id="foot-card">
+							<div class="card-title">
+								<h4>
+									<a class="text-white" style="text-decoration: none;">Cheese Burger</a>
+								</h4>
+							</div>
+							<div class="card-text">
+								<a class="btn" type="button" data-target="#collapsetry2" data-toggle="collapse">
+									<i class="fas fa-arrow-circle-down fa-2x" style="color: red;"></i>
+								</a>
+							</div>
+							<div class="collapse" id="collapsetry2">
+								<div class="mt-2 p-0">
+									<a class="btn btn-success d-block" data-toggle="modal" data-target="#modalid">Order Now</a>
+									<a class="btn btn-warning d-block mt-2">Add to Bucket</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-xs-12 my-4">
+					<div class="card mx-auto">
+						<img src="images/sandwich.jpg" class="card-img-top" style="min-height: 270px; max-height: 270px;">
+						<div class="card-body text-center" id="foot-card">
+							<div class="card-title">
+								<h4>
+									<a class="text-white" style="text-decoration: none;">Sandwich</a>
+								</h4>
+							</div>
+							<div class="card-text">
+								<a class="btn" type="button" data-target="#collapsetry3" data-toggle="collapse">
+									<i class="fas fa-arrow-circle-down fa-2x" style="color: red;"></i>
+								</a>
+							</div>
+							<div class="collapse" id="collapsetry3">
+								<div class="mt-2 p-0">
+									<a class="btn btn-success d-block" data-toggle="modal" data-target="#modalid">Order Now</a>
+									<a class="btn btn-warning d-block mt-2">Add to Bucket</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-xs-12 my-4">
+					<div class="card mx-auto">
+						<img src="images/cake.jpg" class="card-img-top" style="min-height: 270px; max-height: 270px;">
+						<div class="card-body text-center" id="foot-card">
+							<div class="card-title">
+								<h4>
+									<a class="text-white" style="text-decoration: none;">ChocoStrawberry Cake</a>
+								</h4>
+							</div>
+							<div class="card-text">
+								<a class="btn" type="button" data-target="#collapsetry4" data-toggle="collapse">
+									<i class="fas fa-arrow-circle-down fa-2x" style="color: red;"></i>
+								</a>
+							</div>
+							<div class="collapse" id="collapsetry4">
+								<div class="mt-2 p-0">
+									<a class="btn btn-success d-block" data-toggle="modal" data-target="#modalid">Order Now</a>
+									<a class="btn btn-warning d-block mt-2">Add to Bucket</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-xs-12 my-4">
+					<div class="card mx-auto">
+						<img src="images/icecream.jpg" class="card-img-top" style="min-height: 270px; max-height: 270px;">
+						<div class="card-body text-center" id="foot-card">
+							<div class="card-title">
+								<h4>
+									<a class="text-white" style="text-decoration: none;">ChocoVanilla Icecream</a>
+								</h4>
+							</div>
+							<div class="card-text">
+								<a class="btn" type="button" data-target="#collapsetry5" data-toggle="collapse">
+									<i class="fas fa-arrow-circle-down fa-2x" style="color: red;"></i>
+								</a>
+							</div>
+							<div class="collapse" id="collapsetry5">
+								<div class="mt-2 p-0">
+									<a class="btn btn-success d-block" data-toggle="modal" data-target="#modalid">Order Now</a>
+									<a class="btn btn-warning d-block mt-2">Add to Bucket</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-xs-12 my-4">
+					<div class="card mx-auto">
+						<img src="images/falooda.jpg" class="card-img-top" style="min-height: 270px; max-height: 270px;">
+						<div class="card-body text-center" id="foot-card">
+							<div class="card-title">
+								<h4>
+									<a class="text-white" style="text-decoration: none;">strawberry ice falooda</a>
+								</h4>
+							</div>
+							<div class="card-text">
+								<a class="btn" type="button" data-target="#collapsetry6" data-toggle="collapse">
+									<i class="fas fa-arrow-circle-down fa-2x" style="color: red;"></i>
+								</a>
+							</div>
+							<div class="collapse" id="collapsetry6">
+								<div class="mt-2 p-0">
+									<a class="btn btn-success d-block" data-toggle="modal" data-target="#modalid">Order Now</a>
+									<a class="btn btn-warning d-block mt-2">Add to Bucket</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-xs-12 my-4">
+					<div class="card mx-auto">
+						<img src="images/italian.jpg" class="card-img-top" style="min-height: 270px; max-height: 270px;">
+						<div class="card-body text-center" id="foot-card">
+							<div class="card-title">
+								<h4>
+									<a class="text-white" style="text-decoration: none;">Italian Spaghetti</a>
+								</h4>
+							</div>
+							<div class="card-text">
+								<a class="btn" type="button" data-target="#collapsetry7" data-toggle="collapse">
+									<i class="fas fa-arrow-circle-down fa-2x" style="color: red;"></i>
+								</a>
+							</div>
+							<div class="collapse" id="collapsetry7">
+								<div class="mt-2 p-0">
+									<a class="btn btn-success d-block" data-toggle="modal" data-target="#modalid">Order Now</a>
+									<a class="btn btn-warning d-block mt-2">Add to Bucket</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-xs-12 my-4">
+					<div class="card mx-auto">
+						<img src="images/mexican.jpg" class="card-img-top" style="min-height: 270px; max-height: 270px;">
+						<div class="card-body text-center" id="foot-card">
+							<div class="card-title">
+								<h4>
+									<a class="text-white" style="text-decoration: none;">Mexican guacamole</a>
+								</h4>
+							</div>
+							<div class="card-text">
+								<a class="btn" type="button" data-target="#collapsetry8" data-toggle="collapse">
+									<i class="fas fa-arrow-circle-down fa-2x" style="color: red;"></i>
+								</a>
+							</div>
+							<div class="collapse" id="collapsetry8">
+								<div class="mt-2 p-0">
+									<a class="btn btn-success d-block" data-toggle="modal" data-target="#modalid">Order Now</a>
+									<a class="btn btn-warning d-block mt-2">Add to Bucket</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-xs-12 my-4">
+					<div class="card mx-auto">
+						<img src="images/french-ratatouille.jpg" class="card-img-top" style="min-height: 270px; max-height: 270px;">
+						<div class="card-body text-center" id="foot-card">
+							<div class="card-title">
+								<h4>
+									<a class="text-white" style="text-decoration: none;">French ratatouille</a>
+								</h4>
+							</div>
+							<div class="card-text">
+								<a class="btn" type="button" data-target="#collapsetry9" data-toggle="collapse">
+									<i class="fas fa-arrow-circle-down fa-2x" style="color: red;"></i>
+								</a>
+							</div>
+							<div class="collapse" id="collapsetry9">
+								<div class="mt-2 p-0">
+									<a class="btn btn-success d-block" data-toggle="modal" data-target="#modalid">Order Now</a>
+									<a class="btn btn-warning d-block mt-2">Add to Bucket</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-xs-12 my-4">
+					<div class="card mx-auto">
+						<img src="images/kadai-paneer.jpg" class="card-img-top" style="min-height: 270px; max-height: 270px;">
+						<div class="card-body text-center" id="foot-card">
+							<div class="card-title">
+								<h4>
+									<a class="text-white" style="text-decoration: none;">kadai paneer</a>
+								</h4>
+							</div>
+							<div class="card-text">
+								<a class="btn" type="button" data-target="#collapsetry10" data-toggle="collapse">
+									<i class="fas fa-arrow-circle-down fa-2x" style="color: red;"></i>
+								</a>
+							</div>
+							<div class="collapse" id="collapsetry10">
+								<div class="mt-2 p-0">
+									<a class="btn btn-success d-block" data-toggle="modal" data-target="#modalid">Order Now</a>
+									<a class="btn btn-warning d-block mt-2">Add to Bucket</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-xs-12 my-4">
+					<div class="card mx-auto">
+						<img src="images/dal-makhani.jpg" class="card-img-top" style="min-height: 270px; max-height: 270px;">
+						<div class="card-body text-center" id="foot-card">
+							<div class="card-title">
+								<h4>
+									<a class="text-white" style="text-decoration: none;">Dal makhani</a>
+								</h4>
+							</div>
+							<div class="card-text">
+								<a class="btn" type="button" data-target="#collapsetry11" data-toggle="collapse">
+									<i class="fas fa-arrow-circle-down fa-2x" style="color: red;"></i>
+								</a>
+							</div>
+							<div class="collapse" id="collapsetry11">
+								<div class="mt-2 p-0">
+									<a class="btn btn-success d-block" data-toggle="modal" data-target="#modalid">Order Now</a>
+									<a class="btn btn-warning d-block mt-2">Add to Bucket</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-xs-12 my-4">
+					<div class="card mx-auto">
+						<img src="images/indian-dosa.jpg" class="card-img-top" style="min-height: 270px; max-height: 270px;">
+						<div class="card-body text-center" id="foot-card">
+							<div class="card-title">
+								<h4>
+									<a class="text-white" style="text-decoration: none;">Indian Dosa</a>
+								</h4>
+							</div>
+							<div class="card-text">
+								<a class="btn" type="button" data-target="#collapsetry12" data-toggle="collapse">
+									<i class="fas fa-arrow-circle-down fa-2x" style="color: red;"></i>
+								</a>
+							</div>
+							<div class="collapse" id="collapsetry12">
+								<div class="mt-2 p-0">
+									<a class="btn btn-success d-block" data-toggle="modal" data-target="#modalid">Order Now</a>
+									<a class="btn btn-warning d-block mt-2">Add to Bucket</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	
+
+
+	<br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+	<footer class="panel-footer p-5 rounded-top">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-4 text-center">
+					<div>Hours</div>
+					<br>
+					<div> 
+						<p>Week days -- 10am to 8pm</p>
+						<p>Week ends -- 8am to 10pm</p>
+						<p>Tuesday -- Holiday..! :)</p>
+					</div>
+					<hr color="white" class="d-block d-sm-none">
+				</div>
+				<div class="col-sm-4 text-center">
+					<div>Address</div>
+					<br>
+					<div>
+						<p>No: 4/20, yadhaval street, Kadaperi, Tambaram, Chennai</p>
+						<p>Pincode: 600 045</p>
+					</div>
+					<hr color="white" class="d-block d-sm-none">
+				</div>
+				<div class="col-sm-4">
+					<div class="text-center">Testimonials</div>
+					<br>
+					<div style="font-style: italic;">
+						<p>--> Wow! Try out this the dishes were delicious...</p>
+						<p>--> One of the most loving and best restaurant I ever visited in India!</p>
+						<p>--> Never hesitate to visit its spectacular..........!</p>
+					</div>
+				</div>
+			</div>			
+		</div>
+		<hr color="white">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12 col-lg-4 footerclass">
+					<a href="index.html" style="text-decoration: none; color: white;"><h4>Brunch &amp; Munch</h4></a>
+				</div>
+				<div class="col-xs-12 col-lg-4 my-2">
+					<nav>
+						<ol class="breadcrumb justify-content-center" style="background: black; border: 1px solid white;">
+							<li class="breadcrumb-item"><a href="index.html" style="text-decoration: none; ">Home</a></li>
+							<li class="breadcrumb-item active"><a href="menu.html" style="text-decoration: none;">Menu</a></li>
+							<li class="breadcrumb-item"><a href="about.html" style="text-decoration: none;">Contact</a></li>
+						</ol>
+					</nav>
+				</div>
+				<div class="col-xs-12 col-lg-4 text-right">
+					<a href="https://twitter.com"><i class="fab fa-twitter fa-2x footicon"></i></a>
+					<a href="https://facebook.com"><i class="fab fa-facebook-f fa-2x footicon"></i></a>
+					<a href="https://instagram.com"><i class="fab fa-linkedin fa-2x footicon"></i></a>
+					<a href="https://gmail.com"><i class="far fa-envelope fa-2x footicon"></i></a>
+					<a href="https://youtube.com"><i class="fab fa-youtube fa-2x footicon"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

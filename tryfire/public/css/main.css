@@ -1,0 +1,54 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+a{
+	text-decoration: none;
+	font-weight: bolder;
+	line-height: 5;
+	margin-left: 15px;
+}
+a:hover{
+	color: yellow;
+}
+
+a.active{
+	color: red;
+}
+
+img#slideshow{
+	/*border-bottom: 1px white;*/
+}
+#paragraph{
+	padding: 20px;
+}
+@media(min-width: 768px){
+	img#slideshow{
+		 width: 1516px;
+		 height: 440px; 
+	}
+	a{
+		position: relative;
+		top: -15px;
+		left: 1000px;
+	}
+}
+@media(max-width: 768px){
+	img#slideshow{
+		width: 270px;
+		height: 400px;
+	}
+	a{
+		position: relative;
+		width: 270px;
+		top: -15px;
+		left: 10px;	
+	}
+	#paragraph{
+		width: 270px;
+	}
+}

@@ -1,0 +1,4 @@
+.card:hover{
+	content: none;
+	color: red;
+}

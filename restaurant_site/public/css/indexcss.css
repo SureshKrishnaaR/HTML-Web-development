@@ -1,0 +1,441 @@
+body{
+	background: #fcf4e4;
+}
+/*NAVBAR STARTS*/
+#ricon{
+	height: 90px;
+	width: 90px;
+	border-radius: 40px;
+}
+.navbar-text{
+	font-size: 1em;
+}
+#navbrand{
+	font-size: 1em;
+	color: #f7cf4b;
+}
+#navbarnav{
+	font-size: 1em;
+}
+.nav-item a{
+	text-align: center;
+	vertical-align: middle;
+}
+.heynav a:hover{
+	background-color: #f7d49f;
+	padding: 12px;
+	border-radius: 15px;
+}
+.navbar-dark,.dropdown-menu,.dropdown-item{
+	background: black;
+}
+.navbar .navbar-text{
+	color: white;
+}
+#dlink1,#dlink2{
+	text-decoration: none;
+	color: black;
+}
+#phone a{
+	text-decoration: none;
+}
+.fa-phone-alt{
+	color: #f7cf4b;
+}
+/*NAVBAR ENDS*/
+/*HOME CSS STARTS*/
+.animateclaas{
+	font-size: 1.5em;	
+}
+#img-1{
+	width: 88%; 
+	height: auto;
+	box-shadow: 1px 1px 20px rgba(0,0,0,2);
+	border: 5px solid black;
+}
+.forimg1{
+	background: url("../images/menuimg.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	box-shadow: 1px 1px 20px rgba(0,0,0,2);
+	border-radius: 15px;
+	transition: transform .3s;
+}
+.forimg2{
+	background: url("../images/specialimg.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	box-shadow: 1px 1px 20px rgba(0,0,0,2);
+	border-radius: 15px;
+	transition: transform .3s;
+}
+.forimg3{
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	box-shadow: 1px 1px 20px rgba(0,0,0,2);
+	border-radius: 15px;
+	transition: transform .3s;
+}
+.forimg1:hover, .forimg2:hover, .forimg3:hover{
+	border: 2px solid black;
+	box-shadow: 0 0 20px 1px red;
+	transform: scale(1.1);
+}
+.forimg1 h5, .forimg2 h5, .forimg3 h5{
+	color: white;
+	background: black;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	opacity: 0.4;
+	font-size: 1.7em;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+iframe{
+	min-height: 400px; 
+	max-height: 450px;"
+}
+.breadcrumb a{
+	transition: transform(.1s);
+	color: white;
+} 
+.breadcrumb a:hover{
+	transform: scale(1.3);
+	color: red;
+}
+#foot-card{
+	background: black;
+}
+/*HOME CSS ENDS*/
+/*MENU CSS STARTS*/
+
+.menucategories{
+	font-size: 2em;
+	transition: transform .4s;
+	color: black;
+}
+.menucategories:hover{
+	font-weight: bold;
+	transform: scale(1.3);
+	color: red;
+}
+.card{
+	box-shadow: 0px 0px 5px black;
+	transition: transform .5s;
+}
+.card:hover{
+	box-shadow: 0 0 10px 2px #c8411a;
+	transform: scale(1.1);
+}
+.card-title{
+	width: 100%;
+	text-transform: capitalize;
+}
+
+/*MENU CSS ENDS*/
+/*SPECIALS CSS STARTS*/
+.card{
+	box-shadow: 0px 0px 5px black;
+	transition: transform .5s;
+}
+.card-title{
+	width: 100%;
+	text-transform: capitalize;
+}
+.jumboclass{
+	background: #fcf4e4;
+}
+.specialcateg{
+	transition: transform .4s;
+}
+.specialcateg:hover{
+	transform: scale(1.4);
+	font-weight: bold;
+	animation: colorchange;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes colorchange{
+	0%{
+		color: #dc3545;
+	}
+	50%{
+		color: #ffc107;
+	}
+	100%{
+		color: #28a745;
+	}
+}
+.specialcateg{
+	font-size: 2em;
+}
+.menucategories:hover i, .specialcateg:hover i{
+	animation-name: rotate;
+	animation-duration: 1s;	
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes rotate{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+.newbadge1{
+	position: absolute;
+	right: 0;
+	animation: forbadge1;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+@keyframes forbadge1{
+	0%{
+		background: #28a745;
+	}
+	50%{
+		background: #ffc107;
+	}
+	100%{
+		background: #dc3545;
+	}
+
+}
+.newbadge2{
+	position: absolute;
+	right: 0;
+	animation: forbadge2;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+@keyframes forbadge2{
+	0%{
+		background: #ffc107;
+	}
+	50%{
+		background: #dc3545;
+	}
+	100%{
+		background: #28a745;
+	}
+
+}
+.forcombo{
+	position: absolute;
+	right: 0;
+	animation: forbadge3;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+@keyframes forbadge3{
+	0%{
+		background: #dc3545;
+	}
+	50%{
+		background: #28a745;
+	}
+	100%{
+		background: #ffc107;
+	}
+
+}
+.card-container{
+	position: relative;
+	perspective: 200rem;
+	height: 350px;
+	transition: transform .1s;
+}
+.card-container:hover{
+	transform: scale(1.1);
+}
+.card-container:hover .card-front{
+	transform: rotateY(0deg);	
+}
+.card-container:hover .card-back{
+	transform: rotateY(0deg);	
+}
+.card-back{
+	transform: rotateY(180deg);
+}
+.card-sub{
+	position: absolute;
+	transition: all 1s;
+	width: 100%;
+	backface-visibility: hidden;
+}
+.class100forcard{
+	font-weight: bold;
+}
+
+/*SPECIALS CSS ENDS*/
+/*ABOUT CSS STARTS*/
+.newclasstryouts a:hover{
+	background: transparent;
+	border-radius: 0px;
+}
+.newclasstryouts a:active{
+	background: transparent;
+	border-radius: 0px;
+}
+.newclasstryouts a:focus{
+	background: transparent;
+	border-radius: 0px;
+}
+.newclassfunrow a:hover{
+	background: #C0C0C0;
+}
+.aboutchefcard:hover{
+	padding: 0px;
+	transform: scale(1);
+	box-shadow: 0 0 0;
+}
+/*ABOUT CSS ENDS*/
+/*FOOTER STARTS*/
+.panel-footer{
+	background-color: black;
+	color: white;
+}
+.footicon{
+	transition: transform .3s;
+}
+.footerclass a:hover h4{
+	color: red;
+}
+.footicon{
+	color: white;
+	padding: 4px;
+}
+.footicon:hover{
+	color: red;
+	transform: scale(1.5);
+}
+/*FOOTER ENDS*/
+/*MEDIA QUERIES STARTS*/
+@media(min-width: 1400px){
+	#navbrand{
+		font-size: 1.6em;
+	}
+	.tryclasscont{
+			padding: 125px;
+	}
+	.imageclassresponse{
+		min-height: 500px;
+		max-height: 500px;
+	}
+	.menuimageresponse{
+		min-height: 525px; 
+		max-height: 525px;
+	}
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+	#navbrand{
+		font-size: 1.2em;
+	}
+	.tryclasscont{
+			padding: 100px;
+	}
+	.imageclassresponse{
+		min-height: 450px;
+		max-height: 450px;
+	}
+	.menuimageresponse{
+		min-height: 450px; 
+		max-height: 450px;
+	}
+}
+@media(max-width: 1200px){
+	#navbrand{
+		font-size: 1.4em;
+	}
+	.tryclasscont{
+			padding: 60px;
+	}
+	.card-title{
+		font-size: 0.9em;
+	}
+	.class100forcard{
+		font-size: 0.83em;
+	}
+	.imageclassresponse{
+		min-height: 400px;
+		max-height: 400px;
+	}
+	.menuimageresponse{
+		min-height: 400px; 
+		max-height: 400px;
+	}
+}
+@media(max-width: 992px){
+	#navbrand{
+		font-size: 1.4em;
+	}
+	.navbar-toggler{
+		margin-left: 0px;
+	}
+	.tryclasscont{
+			padding: 40px;
+	}
+	.card-title{
+		font-size: 0.9em;
+	}
+	.menucategories,.specialcategnow{
+		font-size: 1.5em;
+	}
+	.imageclassresponse{
+		min-height: 350px;
+		max-height: 350px;
+	}
+	.menuimageresponse{
+		min-height: 350px; 
+		max-height: 350px;
+	}
+}
+@media(max-width: 768px){
+	#navbrand{
+		font-size: 1.2em;
+	}
+	.tryclasscont{
+			padding: 35px;		
+	}
+	.card-title{
+		font-size: 0.9em;
+	}
+	.forimg1 h5, .forimg2 h5, .forimg3 h5{
+		font-size: 1.2em;
+	}
+	.menucategories,.specialcategnow{
+		font-size: 1.3em;
+	}
+	.class100forcard{
+		font-size: 0.9em;
+	}
+	.newclassfunrow a{
+		font-size: 0.7em;
+		display: block;
+	}
+	.imageclassresponse{
+		min-height: 250px;
+		max-height: 250px;
+	}
+	.menuimageresponse{
+		min-height: 250px; 
+		max-height: 250px;
+	}
+}
+/*MEDIA QUERIES ENDS*/
